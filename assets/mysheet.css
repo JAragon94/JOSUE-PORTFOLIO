@@ -95,3 +95,39 @@ span {
 .subtitle2 {
     font-size: 20px;
 }
+
+.recent {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+
+.portfolio-links, img {
+    width: 400px;
+}
+
+.single-img:hover, .group-img {
+    cursor: pointer;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-img {
+    width: 800px;
+    height: 800px;
+}
+
+.logo-img {
+    width: 200px;
+    height: 200px;
+}
