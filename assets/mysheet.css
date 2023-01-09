@@ -131,3 +131,31 @@ span {
     width: 200px;
     height: 200px;
 }
+
+.footer {
+    padding: 65px;
+margin-top: 300px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: larger;
+}
+
+.contact-links a {
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: overline;
+    text-decoration-color: yellow;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+}
