@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: rgb(212, 212, 212);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--secondary-color);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 65px 100px;
+    margin-bottom: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    padding: 1px;
+    text-decoration-color: yellow;
+}
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 0px;
+}
+
+li {
+    margin: 20px;
+}
+
+.footer, .navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    font-size: 22px;
+    font-family: monospace;
+}
