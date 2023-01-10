@@ -23,6 +23,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
+    color: rgb(83, 8, 145);
 }
 
 .nav-links a:hover {
@@ -90,6 +91,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
+    text-align: center;
 }
 
 .subtitle2 {
@@ -106,8 +108,16 @@ span {
     width: 400px;
 }
 
-.single-img:hover, .group-img {
+.single-img:hover {
     cursor: pointer;
+    opacity: 0.5;
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 0), 0 0 15px rgb(83, 8, 145);
+}
+
+.group-img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 0), 0 0 15px rgb(83, 8, 145);
 }
 
 .portfolio-links {
@@ -115,7 +125,7 @@ span {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: 810px;
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -125,6 +135,10 @@ span {
 .single-img {
     width: 800px;
     height: 800px;
+}
+
+.group-img {
+    margin: 1px;
 }
 
 .logo-img {
@@ -146,6 +160,7 @@ margin-top: 300px;
 
 .contact-links a {
     text-decoration: none;
+    color: rgb(83, 8, 145);
 }
 
 .contact-links a:hover {
@@ -156,6 +171,6 @@ margin-top: 300px;
 h4 {
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--secondary-color);
     padding-top: 20px;
 }
