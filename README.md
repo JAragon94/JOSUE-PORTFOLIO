@@ -7,4 +7,4 @@ It's a responsive layout to every viewpoint.
 Deployed link-https://jaragon94.github.io/JOSUE-PORTFOLIO/
 
 Screenshot-
-![Screenshot (3)](https://user-images.githubusercontent.com/120228686/211461250-0980663e-12e5-4793-b2f4-9aef9c78ba1b.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/120228686/212564907-a36d1dee-2ab6-4ee6-81e9-5d81b8bd3b3b.png)
